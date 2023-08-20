@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shatha Cv</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+     .leftSide{
+        background-color: #f1f8f6;
+        width: 30%;
+        height: 170vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 45vh;
+     }  
+     .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;   
+     }
+     .profile h4 {
+        width: 20vw;
+     } 
+     .profile p {
+        width: 20vw;
+     } 
+     .language h4 {
+        width: 20vw;
+     } 
+     .language p {
+        width: 20vw;
+     } 
+     .profile{
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+     }
+     .language{
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+     }
+     .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+     }
+     .portfolio{
+        width: 20vw;  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        gap: 1vh;
+     }
+     .top{
+        margin-top: 30vh;
+     }
+     .rightSide{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        gap: 17vh;
+     }
+     .split{
+        display: flex;
+     }
+     .title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #4a9a82;
+        margin-top: 10vh;
+     }
+     .title h1{
+        font-size: 50px;
+     }
+     .subTitle{
+        color: #4a9a82;
+    }
+     .subTitle h4 {
+        display: flex;
+        flex-direction: row;
+    }
+    .subTitle h4:after{
+        content: "";
+        flex: 1 1;
+        border-bottom: 1px solid;
+        margin: auto;
+        margin-left: 10px;
+    }
+     .content{
+        margin-left: 3vh;
+        display: flex;
+        flex-direction: column;
+        gap: 8vh;
+     }
+     .contentTitle{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+     }
+     .list{
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        margin-left: 3vh;
+     }
+     .contentTitle .li{
+        color: black;
+     }
+     .coloredList{
+        list-style: none;
+        color: #4a9a82;
+        margin-left: 2vw;
+        font-weight: bold;
+     }
+     .blackList{
+        list-style: none;
+        margin-left: 2vw;
+     }
+     .bold{
+        font-weight: bold;
+     }
+     .moveList{
+        margin-left: 3vh;
+     }
+     .gridList{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5,1fr);
+        width: 80vh;
+        gap: 2vh;
+     }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- babel CDN -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" src="main.js"></script>
+</body>
+</html>
